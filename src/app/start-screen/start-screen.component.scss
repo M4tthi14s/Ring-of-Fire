@@ -25,12 +25,14 @@
     justify-content: center;
 
     img{
-        width: 30vw;
+        width: 25vw;
         height: auto;
 
 
         &:hover{
             filter: brightness(1.45);
+            cursor: pointer;
+
         }
     }
 }
