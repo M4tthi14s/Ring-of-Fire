@@ -1,5 +1,5 @@
-export class game {
-  public players: string[] = [];
+export class Game {
+  public players: string[] = ['Vally','Toni','Emi','Anna'];
   public stack: string[] = [];
   public playedCard: string[] = [];
   public currentPlayer: number = 0;
@@ -7,7 +7,7 @@ export class game {
   constructor() {
     for (let i = 1; i < 14; i++) {
       this.stack.push('spade_' + i);
-      this.stack.push('hearts' + i);
+      this.stack.push('hearts_' + i);
       this.stack.push('clubs_' + i);
       this.stack.push('diamonds_' + i);
     }
